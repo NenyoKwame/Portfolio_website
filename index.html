@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta 
+    name="description" content="Portfolio of Nenyo Anaglo, showcasing projects and skills in web development.">
+    <title>Nenyo Anaglo Portfolio</title>
+
+    <link 
+    rel="icon" 
+    href="assets/favicon-32x32.png" 
+    type="image/png"
+    size="32x32"/>
+
+    <link 
+    rel="icon" 
+    href="assets/favicon-16x16.png" 
+    type="image/png"
+    size="16x16"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+      <!--Naviation Bar--> 
+    <nav>
+      <div class="left">
+        <a href="/">Nenyo Anaglo</a>
+      </div>  
+      <div class="right">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        </div>
+    </nav>   
+    <main>
+      <!--Profile Section  -->
+    <section id="profile">
+        <div class="headshot">
+         <img src="assets/photo_2025-08-01_17-51-55.webp" alt="Nenyo">
+        </div>
+         <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Nenyo Anaglo</h1>
+        <p class="section__text__p2">Data Analyst/Aspiring Web Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Nenyo Kwame.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/LinkedIn-Light.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://linkedin.com/in/nenyo-anaglo-893524147/'"
+          />
+          <img
+            src="./assets/GitHub-Light.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/NenyoKwame'"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- About Section -->
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="about-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <img src="assets/experience.png" alt="experience icon" class="icon">
+                    <h3>Interests</h3>
+                    <p>Automation<br>Data Analysis<br>Sports</p>
+        </div>
+                 <div class="details-container">
+                    <img src="assets/education.png" alt="education icon" class="icon">
+                        <h3>Education</h3>
+                        <p>B.A<br>Accounting and Economics<br>University Of Ghana</p>
+                    </div>  
+                 <div class="text-container">
+                    <p>I'm an Accounting and Economics graduate with hands-on experience in data analysis, reporting, and research. I enjoy working with tools like Excel, Power BI, and SQL to make sense of data and find ways to improve processes. I'm especially interested in automation and how it can make work more efficient. Outside of data, I'm into sports and always up for a good game or match.</p>
+                 </div>    
+                </div>
+            </div>
+        </div>
+        <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#skills'"
+      />  
+    </section> 
+    <!-- Skills Section -->
+    <section id="skills">
+       <p class="section__text__p1">Explore My</p>
+       <h1 class="title">Skills</h1>
+       <div class="skills-details-container">
+       <div class="article-container">
+        <article><img src="assets/checkmark.png" alt="skills icon" class="icon">
+        <div>
+            <h3>Python</h3>
+            <p>Beginner</p>
+        </div>
+        </article>
+        <article><img src="assets/checkmark.png" alt="skills icon" class="icon">
+        <div>
+            <h3>SQL</h3>
+            <p>Beginner</p>
+        </div>
+        </article>
+        <article><img src="assets/checkmark.png" alt="skills icon" class="icon">
+        <div>
+            <h3>Excel</h3>
+            <p>Proficient</p>
+        </div>
+        </article>
+        <article><img src="assets/checkmark.png" alt="skills icon" class="icon">
+        <div>
+            <h3>Power Bi</h3>
+            <p>Intermediate</p>
+        </div>
+        </article>
+       </div>     
+        </div>
+       </div> 
+       </div>
+        <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <!-- Projects Section -->
+    <section id="projects">
+       <p class="section__text__p1">Browse My Recent</p>
+       <h1 class="title">Projects</h1>
+       <div class="skills-details-container">
+        <div class="about-containers">
+        <div class="details-container color-container">
+         <div class="article-container">
+            <img src="assets/Screenshot 2025-08-02 134105.png" alt="Project 1" class="project-img">
+            <div>
+                <h2 class="skill-sub-title project title">Project One</h2>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/NenyoKwame'">Github</button>
+                <button class="btn btn-color-1 project-btn" onclick="location.href='https://nenyokwame.github.io/Project-1/'">Live Demo</button>
+            </div>  
+             <p class="section__text__p1">This project is a responsive website that demonstrates HTML and CSS fundamentals. It includes interactive buttons and a live demo.</p>       
+         </div>   
+        </div>
+       </div> 
+        <div class="details-container color-container">
+         <div class="article-container">
+            <img src="assets/automated.png" alt="Project 2" class="project-img">
+            <div>
+                <h2 class="skill-sub-title project title">Project Two</h2>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/NenyoKwame'">Github</button>
+            </div>  
+             <p class="section__text__p1">This project is an excel database system which includes an automated entry form, orders, customers and materials tables for businesses.</p>       
+         </div>   
+        </div>
+       </div> 
+      </div>
+         <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <!-- Contact Section -->
+    <section id="contact">
+      <p class="section__text__p1">Get In Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+      <img src="assets/email.png" alt="Email Icon" class="icon contact-icon email-icon" />
+      <p><a href="mailto:anaglonenyo@gmail.com">anaglonenyo@gmail.com</a></p>
+      </div>
+      <div class="contact-info-container">
+      <img src="assets/LinkedIn-Light.png" alt="LinkedIn Icon" class="icon contact-icon" />
+      <p><a href="https://linkedin.com/in/nenyo-anaglo-893524147/">LinkedIn</a></p>
+      </div>
+      </div>
+    </section>
+    </main> 
+       <!-- Footer -->
+    <footer>
+      <nav>
+        <div class="nav-links-container">  
+      <div class="right">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        </div>
+      </div>
+      </nav>
+     <p>Copyright &#169; 2025 Nenyo Anaglo. All Rights Reserved</p> 
+    </footer>        
+</body>
+</html>
